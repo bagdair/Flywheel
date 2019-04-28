@@ -1,0 +1,13 @@
+http://localhost:53299/api/movie
+http://localhost:53299/api/movie/2
+http://localhost:53299/api/movie/moviesByFilter/comedy
+http://localhost:53299/api/movie/moviesByFilter/sci - part genre or part title ave
+http://localhost:53299/api/movie/moviesByHighRating
+http://localhost:53299/api/movie/moviesByAvgRating
+
+The above works fine.
+
+The Put method I could not get it to work as it failed with syntax error (postman console output the error but could not resolve this)
+Section D I could not get it to work either.
+
+I would have logging for all the errors, would also have a test project in the solution for unit testing to make it easier for any future enhancements and retest existing methods.
